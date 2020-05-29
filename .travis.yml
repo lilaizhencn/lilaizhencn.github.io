@@ -5,7 +5,7 @@ node_js:
 cache: npm
 branches:
   only:
-    - pg_pages
+    - master
 script:
   - hexo generate
 deploy:
